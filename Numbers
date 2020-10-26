@@ -1,4 +1,5 @@
-## Compute New Numbers 
+## compute number
+## computes the largest of a list of numbers. It takes an incredibly long time to find the largest of an increasing list.
 ; largest : non-empty-list-of-numbers -> number
 (define (largest nums)
   (cond [(empty? (rest nums)) (first nums)]
